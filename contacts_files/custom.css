@@ -1,0 +1,103 @@
+.img_logo {
+    width: 183px;
+    height: auto;
+}
+.ltn__header-4 .ltn__header-middle-area, .ltn__header-5 .ltn__header-middle-area {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main_services .service_title {
+    font-size:18px;
+}
+
+.main_services .ltn__blog-item-3 .ltn__blog-brief {
+    padding: 10px;
+}
+.get-a-quote-wrap {
+    padding: 30px 30px 30px;
+    text-align: center;
+}
+.content-box table {
+  width: 100%;
+  border: 1px solid #dedede;
+  font-size: 0.9em;
+  margin: 20px 0 30px 0;
+}
+.content-box th {
+    text-transform: uppercase;
+    padding: 15px 5px;
+    background: #CD2122;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: normal;
+}
+.content-box table tr:first-child td {
+    font-weight: bold;
+    color:#111;
+}
+.content-box table td {
+    padding: .45rem;
+    border-top: 1px solid #dee2e6;
+}
+.content-box table td p {
+    margin-bottom: 3px;
+}
+.content-box ul li .inner_service_text {
+    font-weight: 400;
+    text-transform: none;
+    font-size:16px;
+    
+}
+.content-box ul li .inner_service_text p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.ltn__menu-widget-2 .sibebar_inner_list li a {
+     font-size:80%;
+     text-transform: none;
+     padding: 10px;
+     padding-left: 20px;
+}
+.ltn__menu-widget-2 ul li:not(.active)  .sibebar_inner_list{
+    display: none;
+}
+.ltn__gallery-item-info {
+    padding: 15px 10px;
+}
+.ltn__brand-logo-item {
+    opacity: 1;
+}
+/* custom mega menu */
+.custom_dropdown ul{
+    width: 650px;
+    max-height: 600px;
+   
+    display:flex !important;
+    flex-wrap:wrap !important;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.ltn__main-menu li.custom_dropdown  ul li {
+    font-size:14px;
+    font-weight: 500;
+    padding:8px 15px;
+}
+
+
+
+@media (max-width: 768px) {
+    .img_logo {
+        width: 100px;
+        height: auto;
+    }    
+    .ltn__breadcrumb-list ul li {
+        margin-right: 10px;
+    }
+    .ltn__breadcrumb-inner-2 .ltn__breadcrumb-list ul li:after {
+        display: none;
+    }
+    
+}
